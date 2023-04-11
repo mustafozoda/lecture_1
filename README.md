@@ -1,7 +1,6 @@
-# lecture_1
-## JavaScript
+# First Lesson
 
-> JavaScript is a popular programming language that has a wide range of applications.
+## About JavaScript
+>JavaScript is a scripting language that enables you to create dynamically updating content, control multimedia, animate images, and pretty much everything else.
 
-# lecture 
-# lecture
+![](/img/js%20logo.png)
