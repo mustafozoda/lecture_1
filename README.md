@@ -68,3 +68,93 @@ code. To run JS using Node.js, follow these steps:
 to use const.
 
 ![](/img/consvsvar.jpg)
+
+## Data Types in JavaScript
+
+>Data Types in javascript means the type of data stored in a variable. JavaScript ES6 and above supports 7 Primitive data types. But till JS ES5, we had only 5 Primitive data types.
+
+>As JavaScript and all scripting languages are loosely typed, there is no typecast in javascript. JS supports dynamic typing . We can create any type of data using a single variable.
+
+## We divide Data Types into two groups
+
+### Primitive data types
+
+>Primitive data types are the basic or common data types in javascript. Earlier JS has Five Primitive datatypes, string, numbers, boolean, undefined and null. ES6 introduced BigInt and Symbol. So now there are Seven Primitive datatypes in JavaScript.
+
+### Reference Data Type
+
+>Reference are data types based on primitive. Like Array, Object and Functions. Everything is JavaScript is either a primitive datatype or Object. Even Arrays and Functions are objects, but they are build-in objects.
+
+>All reference datatypes are Constructor Objects, that means they are created using new keyword. new means, a new instance of Function Object or class.
+
+
+## Rules for Naming JavaScript Variables
+
+![](/img/naming.png)
+
+>1) Variable names cannot be a keyword. For example, word ‘let’ is considered as a keyword in JavaScript. Hence, you cannot define a variable called ‘let’. The following code snippet results in an error.
+
+![](/img/1.png)
+
+>2) Variable names cannot start with a number. For example, you may consider to define a variable name as ‘a1’ instead of ‘1a’.
+
+![](/img/2.png)
+
+>3) Variable names cannot contain special characters. The only exception is a $ (dollar symbol) and _ (underscore).
+
+![](/img/3.png)
+
+## Operators IN JavaScript
+>Javascript Operators are used to assign, add, subtract, compare data. JavaScript is having arithmetic, logical, assignment and comparison operators.
+
+### Arithmetic Operators
+>An Arithmetic operator is used to perform Arithmetic operations between values. Like Addition, Subtraction, Multiplication, Division etc
+
+### Logical Operators
+>Logical Operators are used to check logic between two operators. and (&&), or (||) and not (!) are logical operators.
+
+### Assignment Operators
+>Assignment operators ars used to assign some value to js variables. =, +=, -=, *=, /= are all assignment operators in javascript.
+
+### Comparison Operators
+>Comparison operators are used in a statement to compare two values.
+
+### typeof Operator
+>"typeof operator" in javascript is used to check data type of a variable. It can return string, number, boolean and undefined. For reference type and null, typeof operator will return object.
+
+![](/img/operators.png)
+
+
+## Conditions
+>1) If/Else Condition
+>2) Ternary operator Condition
+>3) Switch statment Condition
+
+### If/Else Condition
+>JavaScript if statement is used to check whether the given condition is true or not. We can use comparison operators to check condition. The code block inside if condition or statement will work only if the condition is matched.
+
+>Else Statement is an extra block of code used with if condition. In any case if condition fails, code block inside else will run.
+
+![](/img/ifelse.jpeg)
+
+
+### Ternary operator Condition
+>Ternary Operator is conditional operator in javaScript witch use three operands. For Example, (3>2) ? console.log("yes"): console.log("no") will print yes and (1>2) ? console.log("yes"): console.log("no") will print no.
+
+![](/img/ter.png)
+
+### Switch statment Condition
+>Switch statement is also used to check conditions in JavaScript like if else . Instead of using multiple if elses, we can use switch operator to check conditions as switch is faster in execution than if-else.
+
+#### How to use switch in javascript
+>Like other programing languages, switch is used in Javascript to test conditions. The comparing value is placed inside switch parentheses, after switch operator. Inside switch curly brackets, case keyword is used to test possible cases for switch value. After each case statement, the code that need to be run if that case is matched.
+
+#### Break
+>After each case block, it is important to finish case with break keyword. The break keyword will stop any other case blocks being executed.
+
+#### Default
+>Default is used to show default output if all cases are failed.
+
+![](/img/switch.png)
+
+## Loop
