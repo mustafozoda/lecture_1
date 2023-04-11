@@ -104,7 +104,7 @@ to use const.
 
 ![](/img/3.png)
 
-## Operators IN JavaScript
+## Operators In JavaScript
 >Javascript Operators are used to assign, add, subtract, compare data. JavaScript is having arithmetic, logical, assignment and comparison operators.
 
 ### Arithmetic Operators
