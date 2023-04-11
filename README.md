@@ -158,3 +158,46 @@ to use const.
 ![](/img/switch.png)
 
 ## Loop
+>JavaScript Loops or looping repeats a piece of code till the particular condition meets. Thus a loop will run a code block again and again until the condition is matched.
+
+### Type of loops in JavaScript
+* For
+* While
+* Do/While
+
+#### For Loop
+>For loop is the most commonly used loop in javascript. Like While loop, for loop also check condition first and then execute, but in a neat and cleaner way.
+
+>For loop starts with for keyword followed by parenthesis. Initialization, condition and step values are inserted inside. Initialization is declared inside for loop. If the condition is ok, only then the loop will continue.
+![](/img/for.png)
+
+#### While Loop
+>While Loop is Entry Level Loop, which will repeatedly run a code block while a certain condition is true. While keyword works as a condition for loop. If condition is matched, then only loop will iterate.
+
+
+
+#### Do/While
+>Do While is exit level loop. This will works even if first condition is false, as condition was checked later. This could be helpful where we wants our loop to run at least once even if the condition is not true.
+
+>Do while loop starts with do. While condition will be checked later. This will run code block at least once.
+
+![](/img/dowhile.webp)
+
+## Function
+>Function is a set of code, that is defined once and can be called n number of times. A function can be reused, thus they are also used to avoid repetition of code. Function are reference datatype in javascript. Function includes multiple statements to perform task. A function can take input and then return output. Functions are one of the major building blocks in JavaScript.
+
+>Functions are callable entities. To call a function, we use parenthesis after function name, i.e sayHi(). All methods are build-in functions, that's why they must be called using parenthesis.
+
+![](/img/javafunc.jpg)
+
+### Function Declaration
+>Function declaration is the most commonly used method to declare functions in Javascript. A function keyword is started and followed by function name, then parentheses () and then code written inside curly brackets {}. Here is an example.
+
+### Function Experession
+>Another way to create function is function expression. In function expression, a variable is declared and then assigned a anonymous function, as it does not have a name. They are not named functions, as they are stored inside a variable.
+
+### Function LLFE
+>Immediate Invoke Function or self invoking function are anonymous function who call themself. They are not assigned and named. That's why they are anonymous. But they call themself on page load. They are mainly used to keep variables local.
+
+
+
