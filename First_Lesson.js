@@ -143,13 +143,13 @@
 
 // 12
 
-// function isSymmetrical(num) {
-//     if (num.toString() === num.toString().split('').reverse().join('')) {
-//         return true
-//     }
-//     else return false
-// }
-// console.log(isSymmetrical(141))
+function isSymmetrical(num) {
+    if (num.toString() === num.toString().split('').reverse().join('')) {
+        return true
+    }
+    else return false
+}
+console.log(isSymmetrical(141))
 
 
 // function issym(num) {
@@ -168,23 +168,23 @@
 
 //   13
 
-let prime = (a) => {
-    let cnt = 0;
-    let counter = 0;
+// let prime = (a) => {
+//     let cnt = 0;
+//     let counter = 0;
 
-    for (let i = 2; i <= a; i++) {
-        for (let j = 1; j <= i; j++) {
-            if (i % j == 0) {
-                cnt++;
-            }
-        }
-        if (cnt <= 2) {
-            counter++;
-        }
-        cnt = 0;
-    }
+//     for (let i = 2; i <= a; i++) {
+//         for (let j = 1; j <= i; j++) {
+//             if (i % j == 0) {
+//                 cnt++;
+//             }
+//         }
+//         if (cnt <= 2) {
+//             counter++;
+//         }
+//         cnt = 0;
+//     }
 
-    return counter;
-}
+//     return counter;
+// }
 
-console.log(prime(30));
+// console.log(prime(30));
